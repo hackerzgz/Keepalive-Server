@@ -14,3 +14,13 @@ It is a Problem in TCP Socket, We can solve it By:
 
 1. SetReadDeadline() in net.Conn when your communication protocol support Heartbeat.
 2. SetKeepAlive() in net.TCPConn when your communication protocol not support Heartbeat.
+
+## Result
+
+#### Client
+![Client](https://github.com/HackeZ/Keepalive-Server/raw/master/images/Client.png)
+
+---
+
+#### Server
+![Server](https://github.com/HackeZ/Keepalive-Server/raw/master/images/Server.png)
