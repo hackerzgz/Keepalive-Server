@@ -20,7 +20,7 @@ type Config struct {
 //         Port int
 //     }
 // }
-// === FOR THIS json ===
+// === FOR THIS JSON ===
 // {
 //     "tcp": [{
 //         "host": "xxx",
